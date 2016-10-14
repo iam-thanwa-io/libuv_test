@@ -1,0 +1,52 @@
+git push 403 forbidden
+------------------------------
+git remote set-url origin https://PeggyMercyPrescott@github.com/PeggyMercyPrescott/testlibuv.git
+
+
+
+create branch
+------------------------------
+git checkout -b add-test05onchange.c
+
+git push origin add-test05onchange.c
+
+
+update local branch from remote
+------------------------------
+git fetch add-test05onchange.c
+
+
+merge local
+------------------------------
+git checkout master
+git merge add-test05onchange.c
+
+
+Delete branch
+------------------------------
+git branch -d add-test05onchange.c
+
+- for force delete
+git branch -D add-test05onchange.c
+
+
+Delete remote
+------------------------------
+git push origin :add-test05onchange.c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

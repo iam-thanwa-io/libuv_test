@@ -1,0 +1,34 @@
+#!/bin/bash
+
+: << 'END'
+echo "Test loop is started"
+gcc -Wall -o uvloop test01loop.c -luv
+echo "Test loop is finished"
+
+echo "Test idle is started"
+gcc -Wall -o uvidle test02idle.c -luv
+echo "Test idle is finished"
+
+echo "Test cat is started"
+gcc -Wall -o uvcat test03cat.c -luv
+echo "Test cat is finished"
+
+END
+
+echo "Test tee is started"
+gcc -Wall -o uvtee test04tee.c -luv
+echo "Test tee is finished"
+
+#echo "Test file is started"
+#gcc -Wall -o testfile testfile.c -luv
+#echo "Test file is finished"
+
+#echo "Test NIC is started"
+#gcc -Wall -o testnic testnic.c -luv
+#echo "Test NIC is finished"
+
+#echo "Test DNS is started"
+#gcc -Wall -o testdns testdns.c -luv
+#echo "Test DNS is finished"
+
+

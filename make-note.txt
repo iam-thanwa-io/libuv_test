@@ -1,0 +1,4 @@
+check Makefile
+-------------------------
+cat -e -t -v Makefile
+
